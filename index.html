@@ -52,7 +52,7 @@
     <p class="menu">
         <a style="color: steelblue" href="">[Paper]</a> 
         <a style="color: steelblue" href="https://github.com/Make-A-Protagonist/Make-A-Protagonist" >[Code]</a>
-        <a style="color: steelblue" href="">[Demo]</a>
+        <a style="color: steelblue" href="">[Demo (TODO)]</a>
     </p>
 
     <div class="container">
@@ -167,8 +167,7 @@
 
         <p style="text-align: center;"><span class="section"><b>Abstract</b></span></p>
         <p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto"> 
-            The text-driven image and video diffusion models have achieved unprecedented success in generating realistic and diverse content. Recently, the editing and variation of existing images and videos in diffusion-based generative models have garnered significant attention. However, previous works are limited to editing content with text or providing coarse personalization using a single visual clue, rendering them unsuitable for indescribable content that requires fine-grained and detailed control.
-            In this regard, we propose a generic video editing framework called Make-A-Protagonist, which utilizes textual and visual clues to edit videos with the goal of empowering individuals to become the protagonists. Specifically, we leverage multiple experts to parse source video, target visual and textual clues, and propose a visual-textual-based video generation model that employs mask-guided denoising sampling to generate the desired output. Extensive results demonstrate the versatile and remarkable editing capabilities of Make-A-Protagonist.
+            The text-driven image and video diffusion models have achieved unprecedented success in generating realistic and diverse content. Recently, the editing and variation of existing images and videos in diffusion-based generative models have garnered significant attention. However, previous works are limited to editing content with text or providing coarse personalization using a single visual clue, rendering them unsuitable for indescribable content that requires fine-grained and detailed control. In this regard, we propose a generic video editing framework called Make-A-Protagonist, which utilizes textual and visual clues to edit videos with the goal of empowering individuals to become the protagonists. Specifically, we leverage multiple experts to parse source video, target visual and textual clues, and propose a visual-textual-based video generation model that employs mask-guided denoising sampling to generate the desired output. Extensive results demonstrate the versatile and remarkable editing capabilities of Make-A-Protagonist.
         <p class="section">&nbsp;</p>
 
         <p class="section"><b>Introduction</b></p>
@@ -180,8 +179,9 @@
         <div style="text-align: center">
             <img src="./assets/framework.png" alt="" width="800px" style="max-width: 100%; height: auto;" />
         </div>
-        <p style="text-align: justify">
-            Experts parse the source video to extract control information and masks for the protagonists. Visual and textual clues are obtained using CLIP and DALL-E 2 Prior. The video generation expert combines the information to enable generic video editing.
+        </br>
+        <p style="text-align: center">
+            <em>The first framework for generic video editing with both visual and textual clues.</em>
         </p>
         
         <p class="section">&nbsp;</p>
